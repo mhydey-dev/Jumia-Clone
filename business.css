@@ -1,0 +1,489 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page_width {
+  margin: auto;
+  width: 1200px;
+  max-width: calc(100% - 40px);
+}
+
+.header-section {
+  margin-top: 30px;
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+.left img {
+  height: 40px;
+  width: 150px;
+}
+.mini-right {
+  display: flex;
+  gap: 20px;
+}
+.each-right {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  position: relative;
+}
+.each-right p,
+.each-right svg {
+  z-index: 99;
+}
+.left {
+  z-index: 99;
+}
+.hidden-agenda {
+  position: absolute;
+  top: 0;
+  padding-top: 50px;
+  height: 400px;
+  left: -230px;
+  background-color: white;
+  display: none;
+}
+.each-right:hover .hidden-agenda {
+  display: block;
+}
+.hidden-agenda-list {
+  display: flex;
+  gap: 10px;
+}
+.harnessing {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  width: 280px;
+}
+.abt-img-sec img {
+  border-radius: 12px;
+  width: 280px;
+  height: 280px;
+}
+.harnessing h4 {
+  font-size: 20px;
+}
+.harnessing p {
+  font-size: 15px;
+}
+.passage {
+  width: 200px;
+}
+.hidden-agenda-3 {
+  position: absolute;
+  top: 0;
+  padding-top: 50px;
+  height: 450px;
+  left: -440px;
+  background-color: white;
+  display: none;
+}
+.each-right:hover .hidden-agenda-3 {
+  display: block;
+}
+.hidden-agenda-list-3 {
+  display: flex;
+  gap: 10px;
+}
+.harnessing-3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+  background-color: white;
+  border-radius: 12px 12px 0 0;
+}
+.abt-img-sec-3 img {
+  border-radius: 12px;
+  width: 400px;
+  height: 250px;
+}
+.harnessing-3 h4 {
+  font-size: 20px;
+}
+.harnessing-3 p {
+  font-size: 18px;
+}
+.passage-3 {
+  width: 400px;
+}
+.hidden-agenda-4 {
+  position: absolute;
+  top: 0;
+  padding-top: 50px;
+  height: 400px;
+  left: -540px;
+  background-color: white;
+  display: none;
+}
+.each-right:hover .hidden-agenda-4 {
+  display: block;
+}
+.hidden-agenda-list-4 {
+  display: flex;
+  gap: 10px;
+}
+.harnessing-4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+  background-color: white;
+  border-radius: 12px 12px 0 0;
+}
+.abt-img-sec-4 img {
+  border-radius: 12px;
+  width: 400px;
+  height: 250px;
+}
+.harnessing-4 h4 {
+  font-size: 20px;
+}
+.harnessing-4 p {
+  font-size: 18px;
+}
+.passage-4 {
+  width: 400px;
+}
+.hidden-agenda-2 {
+  position: absolute;
+  top: 0;
+  padding-top: 50px;
+  height: 500px;
+  left: -330px;
+  background-color: white;
+  display: none;
+}
+.each-right:hover .hidden-agenda-2 {
+  display: block;
+}
+.hidden-agenda-list-2 {
+  display: flex;
+  gap: 10px;
+}
+.hidden-agenda-a2 {
+  text-decoration: none;
+  color: black;
+}
+.harnessing-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  width: 280px;
+}
+.abt-img-sec img {
+  border-radius: 12px;
+  width: 280px;
+  height: 280px;
+}
+.harnessing-2 h4 {
+  font-size: 20px;
+}
+.harnessing-2 p {
+  font-size: 15px;
+}
+.passage {
+  width: 200px;
+}
+.color-dash {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.dash {
+  background-color: #f55203;
+  width: 40px;
+  height: 4px;
+
+  border-radius: 5px;
+}
+.busi-mage {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 10px;
+}
+.busi-mage-text {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.making-easy {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  text-align: center;
+}
+.making-easy h1 {
+  color: #f55203;
+  font-size: 48px;
+  font-weight: 200;
+  line-height: 56px;
+}
+.market-log-pay {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+.jumia-market-cart-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+}
+.marketplace-text h1 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #282828;
+}
+.marketplace-passage {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #282828;
+}
+.logistics-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #282828;
+}
+.logistics-passage {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #282828;
+}
+.market-plc-btn {
+  margin-top: 80px;
+}
+.market-plc-btn-2 {
+  margin-top: 110px;
+}
+.market-plc-btn-3 {
+  margin-top: 39px;
+}
+.explore {
+  height: 45px;
+  width: 120px;
+  background-color: #f55203;
+  color: white;
+  padding-top: 15px;
+  padding-left: 30px;
+  border: none;
+  border-radius: 5px;
+}
+.jumia-pay-sec {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.jumia-pay-mini {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.jumia-pay-cart {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.jumia-pay-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #282828;
+}
+.jumia-pay-passage {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #282828;
+}
+.jumia-pay-passage-2 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #282828;
+}
+.page_width_extra {
+  margin: auto;
+  width: 1100px;
+  max-width: calc(100% - 40px);
+  /* background-color: red;
+  height: 600px; */
+}
+.pinky {
+  background-color: #fff0e8;
+  padding-top: 20px;
+  margin-bottom: 60px;
+}
+.pinky-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.pinky-passage {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+.pinky-passage p {
+  width: 730px;
+  max-width: 100%;
+}
+.pinky-chart {
+  display: flex;
+  justify-content: center;
+}
+.pinky-chart-2 img {
+  padding-bottom: 40px;
+  max-width: 100%;
+}
+.pinky-chart-2 {
+  margin-bottom: 60px;
+}
+footer {
+  background-color: #282828;
+  margin-top: 50px;
+}
+.jum-foot {
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.opp-footer {
+  width: 230px;
+  height: 40px;
+}
+.jum-foot-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.First-jum-foot h4:hover,
+.First-jum-foot p:hover {
+  color: #f55203;
+}
+.First-jum-foot {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+.First-jum-foot h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.First-jum-foot P {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.Contact-sec {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+.Contact-sec h4:hover,
+.Contact-sec p:hover {
+  color: #f55203;
+}
+.follow-follow {
+  width: 100%;
+}
+.follow-visit {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  gap: 200px;
+}
+.footer-icons {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Copyright {
+  color: white;
+  width: 300px;
+  max-width: 100%;
+}
+.fa-tw-li-yo {
+  width: 300px;
+  max-width: 100%;
+}
+
+.fa-tw-li-yo .links {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.fa-tw-li-yo h4 {
+  color: white;
+}
+
+.fa-tw-li-yo i {
+  font-size: 26px;
+}
+.cart-box {
+  margin-bottom: 30px;
+}
+.cart-box h4 {
+  color: white;
+}
+
+.Jum-carts {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.Jum-cart {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid white;
+  width: 120px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .right {
+    display: none;
+  }
+  .busi-mage img {
+    width: 100%;
+  }
+  .making-easy h1 {
+    font-size: 36px;
+    line-height: 36px;
+    width: 300px;
+  }
+  .making-easy {
+    padding-top: 20px;
+  }
+}
