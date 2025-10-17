@@ -97,13 +97,13 @@
   flex-wrap: wrap;
   flex-direction: column;
   gap: 20px;
-  width: 400px;
+  width: 100%;
   background-color: white;
   border-radius: 12px 12px 0 0;
 }
 .abt-img-sec-3 img {
   border-radius: 12px;
-  width: 400px;
+  width: 100%;
   height: 250px;
 }
 .harnessing-3 h4 {
@@ -113,7 +113,7 @@
   font-size: 18px;
 }
 .passage-3 {
-  width: 400px;
+  width: 100%;
 }
 .hidden-agenda-4 {
   position: absolute;
@@ -129,7 +129,6 @@
 }
 .hidden-agenda-list-4 {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
 }
 .harnessing-4 {
@@ -137,13 +136,13 @@
   flex-wrap: wrap;
   flex-direction: column;
   gap: 20px;
-  width: 400px;
+  width: 100%;
   background-color: white;
   border-radius: 12px 12px 0 0;
 }
 .abt-img-sec-4 img {
   border-radius: 12px;
-  width: 400px;
+  width: 100%;
   height: 250px;
 }
 .harnessing-4 h4 {
@@ -153,7 +152,7 @@
   font-size: 18px;
 }
 .passage-4 {
-  width: 400px;
+  width: 100%;
 }
 .hidden-agenda-2 {
   position: absolute;

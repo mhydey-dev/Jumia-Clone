@@ -8,10 +8,10 @@
   width: 1200px;
   max-width: calc(100% - 40px);
 }
-
 .header-section {
   margin-top: 30px;
   display: flex;
+  flex-wrap: wrap;
   gap: 70px;
   align-items: center;
 }
@@ -21,10 +21,12 @@
 }
 .mini-right {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .each-right {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   font-size: 12px;
   position: relative;
@@ -50,6 +52,7 @@
 }
 .hidden-agenda-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 .harnessing {
@@ -87,7 +90,6 @@
 }
 .hidden-agenda-list-3 {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
 }
 .harnessing-3 {
@@ -95,13 +97,13 @@
   flex-wrap: wrap;
   flex-direction: column;
   gap: 20px;
-  width: 400px;
+  width: 100%;
   background-color: white;
   border-radius: 12px 12px 0 0;
 }
 .abt-img-sec-3 img {
   border-radius: 12px;
-  width: 400px;
+  width: 100%;
   height: 250px;
 }
 .harnessing-3 h4 {
@@ -111,7 +113,7 @@
   font-size: 18px;
 }
 .passage-3 {
-  width: 400px;
+  width: 100%;
 }
 .hidden-agenda-4 {
   position: absolute;
@@ -127,7 +129,6 @@
 }
 .hidden-agenda-list-4 {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
 }
 .harnessing-4 {
@@ -135,13 +136,13 @@
   flex-wrap: wrap;
   flex-direction: column;
   gap: 20px;
-  width: 400px;
+  width: 100%;
   background-color: white;
   border-radius: 12px 12px 0 0;
 }
 .abt-img-sec-4 img {
   border-radius: 12px;
-  width: 400px;
+  width: 100%;
   height: 250px;
 }
 .harnessing-4 h4 {
@@ -151,7 +152,7 @@
   font-size: 18px;
 }
 .passage-4 {
-  width: 400px;
+  width: 100%;
 }
 .hidden-agenda-2 {
   position: absolute;
@@ -194,12 +195,6 @@
 }
 .passage {
   width: 200px;
-}
-.color-dash {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 60px;
 }
 .people-opportunities {
   margin-top: 40px;
@@ -308,8 +303,8 @@
   font-size: 17px;
 }
 .jumpay {
-  margin-left: 40px;
-  margin-right: 40px;
+  /* margin-left: 40px;
+  margin-right: 40px; */
   background-image: url(jumia-pay\ 2\ image.png);
   height: 500px;
   background-repeat: no-repeat;
@@ -484,12 +479,117 @@ footer {
   border-radius: 5px;
   color: white;
 }
+.menu {
+  display: none;
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
+  .page_width {
+    max-width: 720px;
+  }
+  .Buy-lefty-2,
+  .Buy-lefty-5 {
+    width: 100%;
+  }
+  .Buy-lefty-2 h1,
+  .Buy-lefty-5 h1 {
+    font-size: 36px;
+    width: 100%;
+  }
+  .Buy-lefty-2 p,
+  .Buy-lefty-5 p {
+    width: 100%;
+  }
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hidden-agenda,
+  .hidden-agenda-2,
+  .hidden-agenda-3,
+  .hidden-agenda-4 {
+    left: 0 !important;
+    position: relative;
+    height: auto;
+    padding-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+@media screen and (max-width: 1242px) {
   .right {
     display: none;
   }
-  .Buy-righty-2 img {
-    margin-top: 16px;
+  .menu {
+    display: flex;
+  }
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page_width {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .left img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+  }
+  .mini-right {
+    justify-content: center;
+    gap: 15px;
+  }
+  .each-right {
+    font-size: 14px;
+    justify-content: center;
+  }
+  .Buy-lefty-2,
+  .Buy-lefty-5 {
+    width: 100%;
+  }
+  .Buy-lefty-2 h1,
+  .Buy-lefty-5 h1 {
+    font-size: 28px;
+    width: 100%;
+  }
+  .Buy-lefty-2 p,
+  .Buy-lefty-5 p {
+    width: 100%;
+    font-size: 14px;
+  }
+  .Buy-righty-2 img,
+  .lefty-part img {
+    border-radius: 0;
+    width: 100%;
+    height: auto;
+  }
+  .hidden-agenda,
+  .hidden-agenda-2,
+  .hidden-agenda-3,
+  .hidden-agenda-4 {
+    display: none !important;
+    position: static;
+    height: auto;
+  }
+
+  .explore-2,
+  .explore-pay {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 18px;
+  }
+  .right {
+    display: none;
+  }
+  .menu {
+    display: flex;
   }
 }

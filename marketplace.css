@@ -8,6 +8,9 @@
   width: 1200px;
   max-width: calc(100% - 40px);
 }
+.menu {
+  display: none;
+}
 
 .header-section {
   margin-top: 30px;
@@ -254,8 +257,12 @@
 }
 .Buy-lefty {
   gap: 20px;
-  width: 450px;
-  max-width: 100%;
+  max-width: 450px;
+  flex: 1 1 400px;
+}
+.Buy-right {
+  max-width: 450px;
+  flex: 1 1 400px;
 }
 .Buy-lefty h1 {
   font-size: 40px;
@@ -278,12 +285,23 @@
   padding-top: 15px;
   padding-left: 30px;
   border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
   border-radius: 5px;
   margin-top: 20px;
 }
+.explore:hover {
+  background-color: #d24702;
+}
 .Buy-righty img {
   border-radius: 0px 60px 0 60px;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 .pinky {
   background-color: #fef3e8;
@@ -549,5 +567,34 @@ footer {
   }
   .Buy-righty-2 {
     margin-top: 10px;
+  }
+  .fa-tw-li-yo {
+    display: none;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .menu {
+    display: flex;
+  }
+  .right {
+    display: none;
+  }
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .Buy-on-jum {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Buy-lefty,
+  .Buy-righty {
+    flex: none;
+    width: 100%;
+    max-width: 100%;
   }
 }
