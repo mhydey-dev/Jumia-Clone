@@ -8,6 +8,9 @@
   width: 1200px;
   max-width: calc(100% - 40px);
 }
+.menu-logo {
+  display: none;
+}
 .header-section {
   margin-top: 30px;
   display: flex;
@@ -444,5 +447,17 @@ footer {
   .search,
   .All-dept {
     width: 100%;
+  }
+}
+@media screen and (max-width: 1286px) {
+  .menu-logo {
+    display: flex;
+  }
+  .right {
+    display: none;
+  }
+  .header-section {
+    display: flex;
+    justify-content: space-between;
   }
 }
